@@ -34,7 +34,7 @@ export default class Login extends React.Component {
     return (<div className='boxed-view'>
       <div className='boxed-view__box'>
         <h2>
-          Weather Survey
+          Climate Weather Survey
         </h2>
         {
           this.state.error
