@@ -1,0 +1,39 @@
+/* CSS declarations go here */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #f2f2f2;
+  color: #555555;
+  font-family: Helvetica,Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+button,
+input,
+select {
+  font-size: 1.3rem;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+@import './components/title-bar';
+@import './components/wrapper';
+@import './components/question-list';
+@import './components/question';
+@import './components/check-box';
+@import './components/radio-buttons';
+@import './components/form';
+@import './variables';
+@import './base';
+@import './components/boxed-view';
+@import './components/button';
+@import './components/player';
